@@ -24,6 +24,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
+          <Image src="/favicon.ico" alt="HungaryChess" width={32} height={32} />
             <span className="font-serif text-xl font-bold tracking-tight text-foreground">
               Hungary
             </span>
